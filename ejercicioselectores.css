@@ -1,0 +1,14 @@
+.boton {
+    visibility: hidden;
+}
+
+.boton::after {
+    content: 'Hecho';
+    visibility: visible;
+}
+
+span.boton:hover {
+    color: white;
+    background-color: green;
+}
+
